@@ -8,11 +8,11 @@ function App() {
     <div>
     <Header/>
 
-    <div className="px-10">
+    <div className="px-10 flex justify-center flex-row gap-10">
     <ProfileCard/>
     <Skills/>
     </div>
-    
+
     <Footer/>
   </div>
   )
