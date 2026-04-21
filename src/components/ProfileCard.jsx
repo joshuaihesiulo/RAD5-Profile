@@ -9,7 +9,7 @@ function ProfileCard() {
     <p className="text-2xl font-bold mb-2">Name: {name}</p>
     <p className="text-xl">Course: {course}</p>
     <p className="text-xl">City: {city}</p>
-    <p className="text-xl font-semibold mt-2">Tuition Paid: {tuitionPaid.toLocaleString("en-NG", { style: "currency", currency: "NGN" })}</p>
+    <p className="text-xl font-semibold mt-2">Tuition Paid: {tuitionPaid.toLocaleString()}</p>
     </div>
   );
 }
